@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile"
+        android:id="@+id/profile" />
+
+    <item android:title="Help and Feedback"
+        android:id="@+id/helps"/>
+
+    <item android:title="About Us"
+        android:id="@+id/about1"/>
+
+    <item android:title="Log Out"
+        android:id="@+id/logout"/>
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+</menu>
